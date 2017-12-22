@@ -148,7 +148,9 @@ height: 1022px;
 
 }
 .regRightBannerImage{
-  background-image: url("http://webneel.com/wallpaper/sites/default/files/images/06-2013/beautiful%20sky%20tree%20wallpaper.jpg");
+  /*background-image: url("http://webneel.com/wallpaper/sites/default/files/images/06-2013/beautiful%20sky%20tree%20wallpaper.jpg");*/
+/*background-image: url("./images/regBannerBackground.png");*/
+background: black;
 background-repeat: no-repeat;
 background-position: center; 
 background-size: cover;
@@ -161,3 +163,64 @@ height: 100%;
   display: none;
 }
   }
+
+ .regRightBannerHeader{
+   width: 449px;
+height: 150px;
+font-family: AutoZoneCondensedMedium;
+font-size: 45px;
+color: #ffffff;
+line-height: 50px;
+margin-bottom: 28px;
+ } 
+
+ .regRightBannerBottom{
+  margin-bottom: 28px;
+ }
+ .regRightBannerSection-1,.regRightBannerSection-2,.regRightBannerSection-3{
+  width: 356px;
+height: 42px;
+font-family: HelveticaNeue;
+font-size: 20px;
+color: #ffffff;
+font-weight: Medium;
+line-height: 21px;
+margin-bottom: 25px;
+ }
+ .regDollarImg,.regBasketImg,.regNoteImg{
+  width: 20px;
+height: 20px;
+/*background-color: #f38021;*/
+float: left;
+ }
+ .regDollarImg{
+    background: url(./images/regDollar.png) no-repeat center center;
+    -webkit-background-size: contain; /* For WebKit*/
+    -moz-background-size: contain;    /* Mozilla*/
+    -o-background-size: contain;      /* Opera*/
+    background-size: contain; 
+ }
+  .regBasketImg{
+    background: url(./images/regNote.png) no-repeat center center;
+    -webkit-background-size: contain; /* For WebKit*/
+    -moz-background-size: contain;    /* Mozilla*/
+    -o-background-size: contain;      /* Opera*/
+    background-size: contain; 
+ }
+  .regNoteImg{
+    background: url(./images/regBasket.png) no-repeat center center;
+    -webkit-background-size: contain; /* For WebKit*/
+    -moz-background-size: contain;    /* Mozilla*/
+    -o-background-size: contain;      /* Opera*/
+    background-size: contain; 
+ }
+ 
+
+ .regRightBannerWrapper{
+  text-align: left;
+  padding-left: 92px;
+  padding-top: 100px;
+ }
+ .regMargin{
+  margin-left: 25px;
+ }
