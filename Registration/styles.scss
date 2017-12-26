@@ -1,0 +1,208 @@
+body{
+	background: white;
+}
+
+
+.regLogo {
+  width: 238px;
+  height: 40px;
+}
+
+.registerationPage {
+
+  h1 {
+    line-height: 22px;
+  }
+
+}
+
+.createForm {
+  /*div {width: 100% !important;}*/
+  width: 356px;
+
+}
+
+.inputTextBox, .inputTextBox_Password {
+  border:1px solid #CCCCCC !important;
+  width: 100% !important;
+  height: 56px !important;
+  margin-bottom: 15px;
+
+  label {
+    top:0 !important;
+    line-height: 56px !important;
+    color: #a9aaa8 !important;
+    left: 15px !important;
+ /*   background-color: #FFFFFF;*/
+    display: inline !important;
+  }
+  div {padding:0 15px !important; }
+
+  hr {display: none;}
+
+   input[type="text"] {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #000000 !important;
+    line-height: 20px;
+    padding: 0 15px !important;
+    margin-top: 0 !important;
+    background-color: #FFFFFF;
+  }
+}
+
+.inputTextBox_Password {
+ /* background: url('./password.png') no-repeat 95% center;*/
+  background-size: 27px 14px;
+}
+
+.regSubscription {
+  input[type="checkbox"] {
+    color: #237804;
+  }
+  svg {fill: #237804 !important; }
+  span {
+    float: left;
+    margin: -20px 0 0 30px;
+  }
+  label {
+    font-size: 8px;
+    font-weight: normal !important;
+  }
+}
+
+
+.regPasswordRules{
+  width: 356px;
+  height: 32px;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  color: #000000;
+  line-height: 16px;
+  padding-bottom: 30px;
+}
+
+.regRewardSection{
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.regRewardSectionTop {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #000000;
+  font-weight: Bold;
+  line-height: 24px;
+  /*background: url('./rewardsArrow.png') no-repeat;*/
+  padding-right: 40px;
+}
+
+.regRewardSectionMid{
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #000000;
+  line-height: 20px;
+  padding-top: 15px;
+}
+.regRewardSectionBottom{
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+
+.regAZMember_Error {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  color: #cf1322;
+  line-height: 16px;
+}
+
+.regReadTerms {padding: 70px 0 20px 0;  font-size: 12px;}
+
+.regButtonSection {
+  .regPrimaryBtn {
+      margin-bottom: 10px;
+      display: block !important;
+    button div {
+      background-color: #000000 !important;
+      }
+    button span {
+      color: #ffffff !important;
+      font-weight: bold !important;
+    }
+  }
+
+  .regSecondaryBtn{
+    display: block !important;
+    button div {
+      background-color: #a9aaa8 !important;
+      }
+    button span {
+      color: #000000 !important;
+      font-weight: bold !important;
+    }
+  }
+}
+
+.regSignInLink {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.regBannerWrapper{
+
+  padding:120px 0 0 90px;
+  width: 654px;
+  height: 1022px;
+  /*background-image: url('./banner.png');*/
+  background-color: #000000;
+
+  .regBannerHeading {
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #ffffff !important;
+    line-height: 50px;
+    margin-bottom: 28px;
+  }
+
+  .regBannerInfos{
+    width: 356px;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: Medium;
+    line-height: 21px;
+    margin-bottom: 25px;
+
+    .regBannerInfo{
+      font-size: 20px;
+      color: #ffffff;
+      padding: 0 0 0 50px;
+      margin: 10px 0;
+     /* background-image: url('./dollerIcon.png');*/
+      background-repeat: no-repeat;
+      background-position: left center;
+
+      .dollerIcon {
+         /* background-image: url('./dollerIcon.png');*/
+          background-repeat: no-repeat;
+          background-position: left center;
+          padding: 0 0 0 50px;
+          margin: 10px 0;
+      }
+
+      .cartIcon {
+          /*background-image: url('./cartIcon.png');*/
+          background-repeat: no-repeat;
+          background-position: left center;
+      }
+
+      .warrantyIcon {
+         /* background-image: url('./warrantyIcon.png');*/
+          background-repeat: no-repeat;
+          background-position: left center;
+      }
+    }
+  }
+}
+
